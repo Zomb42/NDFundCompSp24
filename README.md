@@ -1,1 +1,3 @@
-This is a repository that archives the projects in the ND CSE 20311 Fundamentals of Computing course for Spring 2024. All of the projects here utilized basic C concepts and the folders contain the main code files as well as miscellaneous supporting text files.  
+This is a repository that archives the projects in the ND CSE 20311 Fundamentals of Computing course for Spring 2024. All of the projects here utilized basic C concepts and the folders contain the main code files as well as miscellaneous supporting files.  
+
+The class was taught by Professor Ramzi Bualuan and was only made available to take ahead of schedule after passing a basic coding assessment.
