@@ -1,0 +1,9 @@
+Progam from part 2 is supposed to act like a quadratic fomrula calculator for the user. 
+They will be able to use it to find the non-imaginary roots of a quadratic. 
+The program is structured by first asking the user for the a, b, and c term for a quadratic in the term
+ax^2 + bx + c before applying math functions like sqrt() from the math.io library. The program
+then outputs the results to the user with 6 decimal points of accuracy
+The output wasn't working initially when I was using %d instead of %f which the wrong format specifier.
+It now works when I put terms that makes a quadratic with non imaginary roots.
+I have verified that it works with simple input like a=1, b=6, c=8 and it gives the output of -2 and 
+-4 for the roots. 

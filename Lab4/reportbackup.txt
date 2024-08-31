@@ -1,0 +1,15 @@
+report.txt Derick Shi 
+Lab Report for Lab 4
+
+
+This program works by having a display function with a while loop that keeps repeating a menu that prompts the user for
+an answer. Based on that answer, the display function calls another function that usually performs a for 
+loop that will give an answer to whatever question was asked by the user. These answer functions typically 
+search for years that match a certain result or condition and once it finds it, it prints 1900 + index value 
+which gives the year. This program includes functions that find minimum number of wins per year, minimum number
+of losses per year, the win/loss record for a given year, years above a certain win percentage, and years where they played
+above a certain number of games. 
+This makes an intuitive experience for the user where they just keep entering numbers
+based on what questions they want to ask. If they ever want to quit the program, they can just enter 6 and 
+that will exit the switch case system made by the display function. I have verified that the output of the program
+is correct based on the example test results and by manualling looking at the data. 

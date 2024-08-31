@@ -1,0 +1,376 @@
+<html>
+
+<head>
+ <title>CSE 20311 - Fundamentals of Computing - Spring 2024</title>
+</head>
+
+<style type="text/css">
+td {
+ left-margin: 5px;
+}
+</style>
+<body>
+<h1>CSE 20311 - Fundamentals of Computing - Spring 2024</h1>
+
+<h2>Instructor</h2>
+
+<table>
+<tr>
+ <td> <img height=100 src=pics/ramzinew.jpg>
+</td>
+</tr>
+
+<tr>
+ <td>Ramzi Bualuan<br>Faculty<br><i>rbualuan</i></td>
+</tr>
+</table>
+<p>
+<table>
+<tr>
+  <td colspan=2><h2><u>Class TA's</u></h2>
+</tr>
+
+<tr>
+<td><img height=80 src=pics/amuller2.jpeg></td>
+<td><img height=80 src=pics/egonza26.jpeg></td>
+<td><img height=80 src=pics/gwilli24.jpeg></td>
+<td><img height=80 src=pics/jbih2.jpeg></td>
+<td><img height=80 src=pics/kfare.jpeg></td>
+</tr>
+<tr>
+<td>Anna<br>Muller<br>Senior<br><i>amuller2</i></td>
+<td>EG<br>Gonzalez<br>Junior<br><i>egonza26</i></td>
+<td>Gabby<br>Williams<br>Senior<br><i>gwilli24</i></td>
+<td>Joshua<br>Bih<br>Senior<br><i>jbih2</i></td>
+<td>Kaitlyn<br>Fare<br>Senior<br><i>kfare</i></td>
+</tr>
+<tr>
+<td><img height=80 src=pics/llee23.jpeg></td>
+<td><img height=80 src=pics/mnovak5.jpeg></td>
+<td><img height=80 src=pics/rsally.jpeg></td>
+<td><img height=80 src=pics/cgoodwi2.jpeg></td>
+</tr>
+<tr>
+<td>Lauren<br>Lee<br>Senior<br><i>llee23</i></td>
+<td>Meghan<br>Novak<br>Senior<br><i>mnovak5</i></td>
+<td>Roman<br>Sally<br>Junior<br><i>rsally</i></td>
+<td>Kerry<br>Goodwine<br>Senior<br><i>cgoodwi2</i></td>
+</tr>
+
+
+</table>
+
+<p>
+
+<STYLE TYPE="text/css">
+<!--
+TD{font-size: 11pt;}
+--->
+</STYLE>
+<h2>Piazza</h2>
+
+This course will maintain a
+Piazza page to handle general Q&A.  For any questions about homeworks, programming, and the course organization, you may post your question to the Piazza Page, and the instructor or the TA's will answer your question during office hours. Students are also encouraged to answer each others' questions.
+<p>
+
+<h2>Office Hours</h2>
+
+<dir>
+<li> Prof. Bualuan, <b>384 Fitzpatrick</b> 11:30 - 1 pm Wednesdays, or by appointment. 
+<li> TAs: 
+<a href=
+https://docs.google.com/spreadsheets/d/1pGWr8kugHnSBdRvpYHzT2EJQiqf-mas5Zt526RHVFw4/edit?usp=sharing
+ target="_newtas"
+>TA Office Hours</a>
+</dir>
+
+<h2>Important Links</h2>
+<dir>
+<i>all links open in a new tab</i>
+
+<li> <a href=
+https://docs.google.com/document/d/1mdGAw1JLNs8a8dtXnb8NyzpABt8AD3LIPwjO8FykJTE/edit?usp=sharing
+target="_new1">Syllabus</a>
+<li> <a href=labs.html target="_new3">General Lab Instructions</a>
+<li> <a href=remote.html target="_new4">Remote Access Instructions</a>
+</i><li> <a href=
+https://cse.nd.edu/undergraduate/cse-guide-to-the-honor-code/
+target="_new_honor">CSE Honor Code Guidelines</a>
+</dir>
+
+
+<dir>
+
+<p>
+<li> A few free open-source ebooks/tutorials:
+ <br>
+ &nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;
+   <a href=https://gribblelab.org/teaching/CBootCamp/ target="_gribble">
+    gribblelab</a> - 
+   <a href= https://en.wikibooks.org/wiki/C_Programming target="_wikibook">
+    wikibooks</a> - 
+   <a href=http://beej.us/guide/bgc/html/ target="_beej">
+    beej</a> - 
+   <a href=https://www.tutorialspoint.com/cprogramming/ target="_tutc">
+     tutorialspoint</a> - 
+   <a href="https://www.codingunit.com/category/c-tutorials" target="_tutcu">
+     codingunit</a>
+
+</dir>
+
+
+<dir>
+<p>
+<li>  
+<b>
+Online book, required: 
+</b>
+&nbsp;
+&nbsp;
+<a href=https://learn.zybooks.com/zybook/NDCSE20311BualuanSpring2024
+ target="_zybooks">C zybooks/zylabs</a>
+<br>
+<font size=-1>
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+(code: NDCSE20311BualuanSpring2024)
+</font>
+
+<li>  
+<b> Canvas: </b>
+&nbsp; &nbsp;
+<a href=https://canvas.nd.edu/courses/76662
+ target="_canvas">course's Canvas page</a>
+<br>
+
+<li>  
+<b> Piazza: </b>
+&nbsp; &nbsp;
+<a href= https://piazza.com/class/lrfknqz1xm75f4
+ target="_piazza">course's Piazza page</a> for Q/A
+<br>
+</dir>
+
+<dir>
+<i>Some helpful links:</i>
+<li><a href=https://devhints.io/vim target=_newvimsheet>vim cheat sheet</a>
+ - <a href=https://vim.rtorr.com target=_newvimsheet2>another vim cheat sheet</a>
+<li> <a href=https://en.cppreference.com/w/c/language/operator_precedence
+target="_precedence">C's operator precedence</a>
+<li> Reference help on:&nbsp;
+<i>
+ <a href=http://www.cplusplus.com/reference/cstdio/printf 
+    target="_printf1">
+    printf</a>
+ , 
+ <a href=http://www.cplusplus.com/reference/cstdio/scanf target="_scanf">scanf</a>
+</i>
+<li> Reference help on the rest of:&nbsp;
+ <a href=http://www.cplusplus.com/reference/cstdio/ target="_libio">stdio.h</a> 
+
+<li> Reference help for some C libraries:
+<br>
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+   <a href=http://www.cplusplus.com/reference/cmath/ target="_libmath">math.h</a> 
+- <a href=http://www.cplusplus.com/reference/cstdlib/ target="_libstdlib">stdlib.h</a>
+- <a href=http://www.cplusplus.com/reference/cstring/ target="_libstr">string.h</a> 
+ - <a href=http://www.cplusplus.com/reference/cctype/ target="_libtype">ctype.h</a> 
+
+</dir>
+
+<h2>Meeting Times</h2>
+
+<table>
+<tr><td>Class time and place: &nbsp;&nbsp;
+ M/W/F &nbsp;&nbsp; 10:30 - 11:20 &nbsp;&nbsp; DBRT 131
+
+<tr><td>&nbsp;&nbsp;
+<tr><td>Lab sections, in DBRT 133
+<tr><td>&nbsp;&nbsp; * section 01:&nbsp; Monday, 3:00 - 3:50
+<tr><td>&nbsp;&nbsp; * section 02:&nbsp; Monday, 4:00 - 4:50
+</table>
+
+<h2>Tentative Schedule<h2>
+
+<table border=1 width="75%">
+<tr>
+<td width="20px"><b>&nbsp;&nbsp;#&nbsp;</b>
+<td width="45px"><b>Week of</b>
+<td width="130px"><b>Reading</b>
+<td width="180px"><b>Lectures</b>
+<td width="150px"><b>Labs</b>
+<td width="90px"><b>Exams</b>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;1
+<td> Jan 15 
+<td> class notes
+<td> Introduction; basic linux
+<td> <a href=lab0>Lab 0 - getting ready</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;2
+<td> Jan 22
+<td> zybooks: 1.1 - 1.12 ; 2.1 - 2.12 
+<td> Programming Basics
+<td> <a href=lab1>Lab 1 - Intro to Linux and C</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;3
+<td> Jan 29
+<td> zybooks: 3.1 - 3.11 ; 4.1 - 4.10 
+<td> Control flow: conditionals, iteration
+<td> <a href=lab2>Lab 2 - Conditionals and Iteration</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;4
+<td> Feb 05
+<td> zybooks: 6.1 - 6.9
+<td> Functions
+<td> <a href=lab3>Lab 3 - Functions</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;5
+<td> Feb 12
+<td> zybooks: 5.1 - 5.9
+<td> Arrays, passing arrays to functions
+<td> <a href=lab4>Lab 4 - Arrays</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;6
+<td> Feb 19
+<td>zybooks: remaining sections of
+<br> chapters 3, 4, 5;  + 9.1-9.4
+<td> char ; C strings ; file I/O
+<td> <a href=lab5>Lab 5 - char, strings, file i/o</a> 
+<td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;7
+<td> Feb 26
+<td>
+<td>
+<td> 
+<td> Exam I - Wed Feb 28
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;8
+<td> Mar 04
+<td> 
+<td> 
+<td> 
+<td>
+</tr>
+
+<tr bgcolor=#aaaaff> 
+<td>&nbsp;&nbsp;-
+<td> Mar 11
+<td>
+<td>
+<td>
+<td> Spring Break
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;9
+<td> Mar 18
+<td> 
+<td>
+<td> 
+<td>
+</tr>
+
+<tr>
+<td>10
+<td> Mar 25
+<td> 
+<td align=right> <font size=-1 color=blue>
+<i>Fri: Easter Break </i>
+&nbsp;
+&nbsp;
+</font>
+<td>
+<td>
+</tr>
+
+<tr>
+<td>11
+<td> Apr 01
+<td> 
+<td align=left>
+<font size=-1 color=blue>
+<i>&nbsp;Mon: Easter Break </i>
+</font>
+<td> 
+<td>
+</tr>
+
+<tr>
+<td>12
+<td> Apr 08
+<td>
+<td> 
+<td>
+<td> Exam II 
+</tr>
+
+<tr>
+<td>13
+<td> Apr 15
+<td>
+<td>
+<td>
+<td>
+</tr>
+
+<tr>
+<td>14
+<td> Apr 22
+<td> 
+<td> 
+<td>
+<td>
+</tr>
+
+<tr>
+<td>15
+<td> Apr 29
+<td>
+<td>
+<td>
+<td>
+</tr>
+
+<tr>
+<td>
+<td> May 06
+ <br>(finals)
+<td>
+<td> 
+<td>
+<td>FINAL EXAM
+ <br>Wed 05/08; 4:15 pm
+ <br>131 DBRT
+</tr>
+
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+
+Solution: 
+-----------------
+|...............|
+|...............|
+|..F.....C......|
+|..UND..COMPUTER|
+|..N.....D.R....|
+|..C..N..E.O....|
+|..T..O....G.C..|
+|.FIGHTINGIRISH.|
+|..O..R.O..A.E..|
+|..N..E.T..M....|
+|.....D....M....|
+|KEYBOARD..IF...|
+|.....M....N....|
+|.....E....G....|
+|...............|
+-----------------
+
+Crossword: 
+-----------------
+|###############|
+|###############|
+|## ##### ######|
+|##   ##        |
+|## ##### # ####|
+|## ## ## # ####|
+|## ## #### # ##|
+|#             #|
+|## ## # ## # ##|
+|## ## # ## ####|
+|##### #### ####|
+|        ##  ###|
+|##### #### ####|
+|##### #### ####|
+|###############|
+-----------------
+
+Clues: 
+Unable to print LOOP 
+ 1,  7 vertical   IRGTNIIHGSFIH 
+ 2,  3 horizontal UND 
+ 3,  7 vertical   OTEDAENRM 
+ 5,  6 horizontal RBAEOYKD 
+ 6,  7 vertical   AMOGIRPGNMR 
+ 7,  3 vertical   DECO 
+ 7,  7 vertical   NOT 
+10,  0 horizontal PUORTCEM 
+10, 11 horizontal FI 
+11,  7 vertical   SEC 

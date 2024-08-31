@@ -1,0 +1,29 @@
+report.txt    Derick Shi
+
+
+
+This the report for Part 2 of Lab 5's assignment. 
+
+
+How the program works for the user :
+The program works for the user by having them first open a txt file of their choosing and then performing several tasks on it. 
+They can see what sayings are in the text file, add more sayings to it, analze the text file based on the criteria, or save the new 
+sayings into a new file with a nameo of their choosing. All of this functions through a repeated menu that also gives the user the
+option to quit out of if they choose to do so. 
+
+
+How the program works internally: 
+This program works by first opening a random text file with sayings in it. This could be any text file but for 
+simplicity's sake, I just used the startup.txt file that was provided. The program fopens that file and then pulls
+all of the lines on the file pointer into a 2D array called sayings. The rest of the program functions by having
+a switch case statement for the menu that directs certain smaller functions based on the user need. The functions 
+can either print the sayings string with a for loop, add a saying to the array with strcpy, filter out certain strings 
+that contain a phrase with strstr, add all of the phrases to a new txt file with fprintf, or filter certain strings based on 
+character length in a for loop. The function also has a noticeable ending and default case. For a lot of the functions,
+I needed to pass the sayings string for it to change or analyze with the count or number of sayings in the string for a 
+for loop to function. 
+
+Verified:
+I have verified that the program works by messing around with all of its functions and in different orders. For example, I have 
+added the saying "I like tissues" into the program, sorted the sayings by the word academic, printed the sayings and also 
+saved it into a new file.  

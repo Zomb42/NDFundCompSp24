@@ -1,0 +1,38 @@
+report.txt     Derick Shi
+
+
+This is the lab report for Lab 6 Game of Life assignment. 
+
+From the user perspective, this game is supposed to model Conway's Game of Life simulation
+where a bunch of cells are initially placed in a grid and depending on the number of neighbors 
+that it has (0-8 include diagonals), it either becomes alive with 3 neigbors , stays alive with
+2 or 3 neighbors , or dies if it doesn't fit the other criterias. The game has an interactive 
+mode which is triggered when the executable that is created when doing make doesn't have an arguement
+after it. The user will see an infinite menu where they can manually add cells, remove cells, or simulate the 
+next generation. The user can also turn on the infinite simulator for the cells on the 40 x 40 board. 
+The user could also import premade cell configrations if they add a txt file after the exectuable for the batch mode. 
+
+The program works by having a 40 x 40 array store the board data and have several functions that 
+manipulate its value based on actions from the user. In the interactive mode, based on the user input, there
+is a switch case that performs different actions on the board based on the display, place, or nextsimulation functions. 
+The while loop will keep making the board and menu appear until the user quits or wants an infinite simulation which 
+will activate another while loop. The main function also accepts argv and that value will prompt the batch or interactive mode.
+The display and place functions are fairly inutitive with several for loops that loops across the entire board and prints it out
+or places a specific value in an x y coordinate that is given to it. For this program, it follows the x y logic of a traditional 
+cartesian plane so the lower left corner is spot 1,1 and the top spot will be 40,40. This means there will be some random i+1 or i-1 
+in the program in order to get the right value in the mainboard array. For the next simulation function, I did a bit of a more unorthodox
+approach where I had a temporary board that is 42x 42 in order to easily check and not mess with the system while check for edge cases. 
+I placed the main board in the middle of the tempboard before checking the neighbors in the middle 40x40 of the temp board so I can resuse 
+the same logic of checking the 8 neighbors and for that part, I used 2 for loops that crossed over each other. 
+
+
+I have verified that I have checked the executable in the batch and interactive mode for my scene files. 
+
+I used this link below to to make it so the simulation has a slighty delay. I was going to use usleep, but some people on github said that 
+nanosleep was better. 
+https://www.geeksforgeeks.org/c-nanosleep-function/ 
+
+For the scene txt files, I used the link below to get inspirations. 
+https://conwaylife.com/wiki/ 
+
+Scenes 1 - 4 follow the general instructions. Scene 5 shows two gliders colliding and causing chaos. 

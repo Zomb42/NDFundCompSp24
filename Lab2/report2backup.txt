@@ -1,0 +1,12 @@
+Lab Report for Part 3 in Lab 2 
+Derick Shi
+
+This programs just displays the graph of sin(x+2) + 2* ln(x+2) for the domain of [0,20]. 
+There aren't any inputs that the user could enter as the program only displays the results of the graph with the x 
+axis going down and the y axis going horizontally. The program also displays the maximum and minimums of the graph. 
+The program functions by having a while loop that increases the x values by small increments until it reaches the domain. In 
+that while loop it calculates the new y value for each increment and loops through the y value until it prints out #'s to
+depict the graph horizontally. The first while loop also checks for the minimum and maximum values while the program loops. 
+It goes down and depicts the change of y value. 
+
+I verified that the program works by checking the output with desmos. 

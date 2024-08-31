@@ -1,0 +1,21 @@
+report.txt      Derick Shi
+
+
+This is the report for part 2 of Lab7
+
+From the user's perspective, the USA states program works by first having them run
+an executable runstates, enter in a csv file, and then click different options in a menu.
+Depending on what the user wants to do, they print the recorded csv file in a variety of formats
+to know for example what states were founded after a year or what state's abbreviations 
+contain a certain letter. They will keep entering responses into the menu until they press and enter 6 to quit. 
+
+The program works internally by first reading the csv file with the strtok function before having 
+several functions print the data in different formats. All of the states's infromation from the csv
+are recorded into an array of struct for easier usage and manipulation. There is a menu function that
+operates with a switch  case statement but for the rest of the arrays, they function by having a for 
+loop operate on the array and print some data that fits some critera for the function. An example of this 
+can be having a couple if statements check if the user inputted string is the name or abbreivation of
+a state, and if so, print out the capital. 
+
+I have tested all of the functions on the statesinfo.csv file and it seems to have worked. I have also tried
+putting edge test cases like 2000 for the year and the program operates as accordingly

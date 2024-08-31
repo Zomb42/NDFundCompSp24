@@ -1,0 +1,11 @@
+report.txt     Derick Shi
+
+
+This is the report for Lab 3 and will explain the text menu calculator. The calculator functions by having a while loop in main
+that repeats until the user 'quits' from the program and is done using its functions. The calculator has 4 functions 
+that consist of the main operations of arithmetic, subtraction, multiplication, and division. All of these functions will perform
+the proper computation but then print out the correct statements. In the main function, these sub functions are organized in a switch
+case conditional statement to provide greater clarity of what happens for each user response. The user can just enter a response
+for whatever operation they want and then the 2 numbers to see the result. If they choose to exit, they can just enter 5 and will
+subsequently leave the while loop. I have verified that the output of the program is correct and have messed around with the numbers
+to try and detect any bugs. The numbers match up with my calculator. 
